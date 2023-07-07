@@ -1,0 +1,9 @@
+# finished
+
+type_change.py:实现了将PDF转为一行txt和CAJ转为一行txt。
+
+内部具体函数为PDF_into_txt和CAJ_into_txt。
+
+PDF_into_txt输入参数为两个为所需要转换的文件夹目录名（建议绝对路径），后者为输出的txt文档的目录名（记得加后缀.txt，另外也建议绝对路径）
+
+CAJ_into_txt输入参数为三个，前两个参数的意义与PDF_into_txt一致，但最后一个参数为自定义的存放CAJ转变为PDF后存放这些PDF的文件夹。
